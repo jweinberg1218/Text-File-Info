@@ -16,10 +16,10 @@ Heuristics
 -----------
 The content of the provided text file is split up into words, sentences, and paragraphs using the following patterns for delimiters. Each of the words, sentences, and paragraphs are then stored into their respective arrays, and the size of the arrays are then printed to the user's console.
 
-Word Pattern: Word + Zero-To-Many Characters + One-To-Many Spaces
+Word Pattern: Alphanumeric + Zero-To-Many Characters + One-To-Many Spaces
 
-Sentence Pattern 1: Word + Zero-To-Many Characters + One-To-Many . (Period) Or ! (Exclamation) Or ? (Question) Or : (Colon) + Zero-To-Many ' (Single-Quote) Or " (Double-Quote) + One-To-Many Spaces
+Sentence Pattern 1: Alphanumeric + Zero-To-Many Characters + One-To-Many . (Period) Or ! (Exclamation) Or ? (Question) Or : (Colon) + Zero-To-Many ' (Single-Quote) Or " (Double-Quote) + One-To-Many Spaces
 
-Sentence Pattern 2: Word + Zero-To-Many Characters + One-To-Many LineBreaks
+Sentence Pattern 2: Alphanumeric + Zero-To-Many Characters + One-To-Many LineBreaks
 
-Paragraph Pattern: Word + Zero-To-Many Characters + Two-To-Many LineBreaks
+Paragraph Pattern: Alphanumeric + Zero-To-Many Characters + Two-To-Many LineBreaks
